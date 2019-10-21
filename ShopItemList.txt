@@ -1,0 +1,11 @@
+2
+Potion
+Bulma
+ATK Boost
+10
+25
+Weapon
+Dawnbreaker
+Sword
+50
+100
