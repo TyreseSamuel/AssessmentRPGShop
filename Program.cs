@@ -10,8 +10,10 @@ namespace Shop3
     {
         static void Main(string[] args)
         {
-            //to test, you'll need to create a new instance of game
-            //From there you can call the save and load functions
+            Inventory inventory = new Inventory();
+            inventory.menu();
+            inventory.player();
+            inventory.shop();
         }
     }
 }

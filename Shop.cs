@@ -10,7 +10,7 @@ namespace Shop3
     class Shop
     {
         public float gold = 0.00f;
-        ArrayList Inventory = new ArrayList(5);
+        ArrayList Inventory = new ArrayList();
         public Item sell(int index)
         {
             Item item = Inventory[index] as Item;
@@ -49,7 +49,8 @@ namespace Shop3
         public void save()
         {
             StreamWriter writer = new StreamWriter("ShopItemList.txt");
-            int ListLength = Convert.ToInt32(writer.WriteLine());
+            writer.WriteLine(weapon());
+            writer.WriteLine(Potion.name())
         }
     }
 }

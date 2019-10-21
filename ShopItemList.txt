@@ -1,4 +1,4 @@
-2
+
 Potion
 Bulma
 ATK Boost
@@ -9,3 +9,4 @@ Dawnbreaker
 Sword
 50
 100
+Potion
